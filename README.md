@@ -8,12 +8,12 @@ Not so obvious steps to reproduce
 #### 2. Create new graph (deployed) and copy values for environment variables 
 
 #### 3. Set environment variables for API Gateway service. 
-
+```
 APOLLO_KEY=EXAMPLE_KEY
 APOLLO_GRAPH_ID=example-graph-name
 APOLLO_GRAPH_VARIANT=current
 APOLLO_SCHEMA_CONFIG_DELIVERY_ENDPOINT=https://uplink.api.apollographql.com/
-
+```
 #### 4. Create Subgraph service 
 
 #### 5. Install rover
